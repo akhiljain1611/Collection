@@ -1,0 +1,108 @@
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Hashtable ht = new Hashtable();
+            ht.Add("Name","akhil");
+                ht.Add("job", "Software Enginner");
+            ht.Add("Location", "Delhi");
+
+            foreach(object obj in ht.Keys)
+            {
+                Console.WriteLine("keys are"+obj+"values are="+ht[obj]);
+            }
+
+            //Queue queue = new Queue();
+            //queue.Enqueue(3);
+            //queue.Enqueue(2);
+            //queue.Enqueue(1);
+            //queue.Enqueue("Four");
+            //Console.WriteLine("Number of elements in the Queue: {0}", queue.Count);
+
+            //while (queue.Count > 0)
+            //    Console.WriteLine(queue.Dequeue());
+
+
+            //Console.WriteLine("Number of elements in the Queue: {0}", queue.Count);
+
+
+            // Stack s1 = new Stack();
+            // s1.Push(1);
+            // s1.Push(23);
+            // s1.Push(2);
+            // s1.Push(3);
+
+            //// Console.WriteLine(s1.Peek());//return the last/top element added in stack
+            // //foreach (object obj in s1)
+            // //{
+            // //    Console.WriteLine(obj);
+            // //}
+            // Console.WriteLine(s1.Pop());
+            // foreach (object obj in s1)
+            // {
+            //     Console.WriteLine(obj);
+            // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // //non generic Collection Arraylist.
+            // ArrayList al = new ArrayList();
+            // Console.WriteLine(al.Capacity);//0 adding element in the end by add
+            // al.Add(20);
+            // Console.WriteLine(al.Capacity);//4
+            // al.Add(30);
+            // al.Add(40);
+            // al.Add(50);
+            // Console.WriteLine(al.Capacity);//4
+            // al.Add(60);
+            // Console.WriteLine(al.Capacity);//8
+            // al.Insert(0, 10); //adding element at 0th Index(1st place)
+            // Console.WriteLine(al.Capacity);
+            // foreach(object obj in al) 
+            // {
+            //     Console.WriteLine(obj); //o/p 10,20,30,40,50,60
+            // }
+            // al.Remove(30);
+            // Console.WriteLine("after removing ");
+            // foreach (object obj in al)
+            // {
+            //     Console.WriteLine(obj); //o/p 10,20,30,40,50,60
+            // }
+            // al.Add("hello");
+            // Console.WriteLine("after adding hello ");
+            // foreach (object obj in al)
+            // {
+            //     Console.WriteLine(obj); //o/p 10,20,30,40,50,60
+            // }
+            // ArrayList al2 = new ArrayList();
+            //// al2.Add(30);
+            // al2.InsertRange(0, al);
+            // //InsertRange() method to insert all the values from another collection
+            // //into ArrayList at the specfied index
+            // Console.WriteLine("2nd arraylist");
+            // foreach (object obj in al2)
+            // {
+            //     Console.WriteLine(obj); 
+            // }
+            // al2.Reverse();
+            // Console.WriteLine("2nd arraylist reverse");
+            // foreach (object obj in al2)
+            // {
+            //     Console.WriteLine(obj); 
+            // }
+
+            Console.ReadLine();
+        }
+    }
