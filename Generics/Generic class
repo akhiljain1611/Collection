@@ -1,0 +1,21 @@
+class person<T>
+    {
+        public void Add(T a,T b)
+        {
+            dynamic d1 = a;
+            dynamic d2 = b;
+            Console.WriteLine(d1+d2);
+        }
+        public void Sub(T a, T b)
+        {
+            dynamic d1 = a;
+            dynamic d2 = b;
+            Console.WriteLine(d1 - d2);
+        }
+        public void Mul(T a, T b)
+        {
+            dynamic d1 = a;
+            dynamic d2 = b;
+            Console.WriteLine(d1 * d2);
+        }
+    }
