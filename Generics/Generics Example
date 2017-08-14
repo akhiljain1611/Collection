@@ -19,3 +19,14 @@
             Console.WriteLine(d1 * d2);
         }
     }
+class Program
+    {
+        static void Main(string[] args)
+        {
+            person p = new person();
+            p.Add<int>(10, 20);
+            p.Add<string>("akhil", "Jain");
+            Console.ReadKey();
+
+        }
+    }
